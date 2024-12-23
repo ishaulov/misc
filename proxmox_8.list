@@ -1,0 +1,12 @@
+# Proxmox 8
+
+# Proxmox Repo
+deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
+
+# Debian Repo
+deb http://deb.debian.org/debian bookworm main contrib
+deb http://deb.debian.org/debian bookworm-updates main contrib
+deb http://security.debian.org/debian-security bookworm-security main contrib
+
+# If your get a warning "You are attempting to remove the meta-package 'proxmox-ve'!" uncomment this string
+# deb http://download.proxmox.com/debian/ceph-reef bookworm no-subscription
