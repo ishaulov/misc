@@ -1,5 +1,4 @@
 # Astra Linux SE 1.7
-# update 20.06.2024
 
 # Основной репозиторий
 deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-main/     1.7_x86-64 main contrib non-free
@@ -14,4 +13,4 @@ deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-base/     1.7_x8
 deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 main contrib non-free
 
 # Расширенный репозиторий (компонент astra-ce)
-deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 astra-ce
+#deb https://dl.astralinux.ru/astra/stable/1.7_x86-64/repository-extended/ 1.7_x86-64 astra-ce
