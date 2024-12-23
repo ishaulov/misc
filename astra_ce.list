@@ -1,0 +1,3 @@
+# Astra Linux CE 2.12
+
+deb https://dl.astralinux.ru/astra/frozen/2.12_x86-64/2.12.45/repository stable main contrib non-free
