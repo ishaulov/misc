@@ -1,6 +1,6 @@
 New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Direction Inbound -Protocol ICMPv4 -Action Allow
 
-$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-Command Start-Sleep -Seconds 60; Get-NetAdapter | Restart-NetAdapter -Confirm:$false"
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-Command Start-Sleep -Seconds 60; Get-NetAdapter | Restart-NetAdapter -Confirm"
 $trigger = New-ScheduledTaskTrigger -AtStartup
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable
 $principal = New-ScheduledTaskPrincipal -UserId "SYSTEM" -LogonType ServiceAccount
